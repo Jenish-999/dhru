@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #dfdfdf;
+}
+.wrapper{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:2px solid black;
+}
+.wrapper .left,
+.wrapper .right{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+.wrapper .left{
+    background: #494f57;
+}
+.wrapper .left h3{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 20px;
+}
+.wrapper .left{
+    background:url(imgleft.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper .right{
+    background:#fff;
+}
+.wrapper .right .tabs ul{
+    text-align: center;
+}
+.wrapper .right .tabs ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #494f57;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.wrapper .right .tabs ul li.active{
+    border-bottom: 2px solid #494f57;
+}
+.wrapper .right .register,
+.wrapper .right .login{
+    margin-top: 20px;
+}
+.wrapper .right .input_field{
+    margin-bottom: 15px;
+}
+.wrapper .right .input_field .input{
+    width: 100%;
+    padding: 10px 15px;
+    border:0;
+    font-size: 12px;
+    background: #ecebeb;
+    outline: none;
+    border-radius: 10px;
+}
+.wrapper .right .btn{
+    margin-top:20px;
+    background:#494f57;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+
+}
+.wrapper .right .btn1{
+    margin-top:20px;
+    background:#494f57;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.wrapper .right .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper .right .btn1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ok{
+    margin-left: 20px;
+    padding: 1rem;
+}
+
+h1{
+    margin: 1.5rem;
+    color:red;
+    cursor: pointer;
+}
+h1:hover{
+    margin: 1.5rem;
+    color:green;
+}
+#submit-btn-1{
+    padding:.60rem;
+    border-radius: 5px;
+    background-color: rgb(66, 93, 248);
+    color: #fff;
+    border:none;
+    margin:1rem 0;
+    cursor: pointer;
+}
+
+.alert{
+    padding:.60rem;
+    border-radius: 5px;
+    margin-top:.20rem;
+    display: none;
+}
+.alert-danger{
+    background-color: rgba(240, 67, 36, 0.295);
+   
+}
+.alert-success{
+    background-color: rgba(51, 235, 76, 0.295);
+   
+}
